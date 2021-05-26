@@ -7,6 +7,8 @@ export default function Profile()
 { var x=JSON.parse(sessionStorage.getItem("info"));
    
     return(
+        <div>
+            <NavBar />
          
         <div class="page-content page-container" id="page-content">
         <div class="padding">
@@ -54,6 +56,7 @@ export default function Profile()
                 </div>
             </div>
         </div>
+    </div>
     </div>
     
     )

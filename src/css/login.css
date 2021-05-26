@@ -3,7 +3,7 @@ h1{
 }
 .body1{
   float:left;
-  background:url('../images/tb134.jpg') no-repeat ;
+  background:url('../images/tb44.jpg') no-repeat ;
 
   
 }
@@ -61,7 +61,7 @@ h1{
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 2rem;
-  color: #ff652f;
+  color: white;
 }
 
 
@@ -97,7 +97,7 @@ h1{
 .form .input-group input:focus + label,
 .form .input-group input:valid + label {
   transform: translateY(-18px);
-  color: #ff652f;
+  color:white;
   font-size: .8rem;
 }
 
@@ -106,7 +106,7 @@ h1{
   margin-left: auto;
   border: none;
   outline: none;
-  background: #ff652f;
+  background:white;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;

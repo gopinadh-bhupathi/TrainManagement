@@ -59,7 +59,7 @@ function Register(){
         <label for="loginUser">Email id</label>
       </div>
       <div class="input-group">
-      <input type="text" name="password" id="password" placeholder="Password" required minLength={6}  onChange={(e)=>setpassword(e.target.value)} required=""></input>
+      <input type="text" name="password" id="password"  required minLength={6}  onChange={(e)=>setpassword(e.target.value)} required=""></input>
         <label for="loginPassword">Password</label>
       </div>
       <input type="submit" value="Register" class="submit-btn" />

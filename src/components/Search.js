@@ -49,7 +49,7 @@ export default function Search(){
        
    
       <div className="flight__dropdowns">
-          <h2>Search Trains</h2>
+          <h2>SEARCH TRAINS</h2>
           <h4>Source</h4>
           <form className="flight__form" onSubmit={search}>
             <select
@@ -87,7 +87,7 @@ export default function Search(){
             </select>
            
             <button type="submit" className="search__btn">
-              Search Flights
+              Search 
             </button>
           </form>
         </div>
