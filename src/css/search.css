@@ -1,0 +1,54 @@
+.flight__dropdowns{
+  
+  color:aliceblue;
+	width: 30%;
+	margin: 2% 2% 2% 2% ;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	border: 2px solid gray;
+	border-radius: 5px;
+  margin-left: 510px;;
+}
+
+.flight__form{
+   
+  padding-bottom: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  color: #fff;
+}
+
+
+body{
+  background:url('../images/tt5.jpg') no-repeat ;
+ 
+}
+select{
+	width: 70%;
+	height: 40px;
+	margin-bottom: 1%;
+	border-radius: 10px;
+	border-width: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.search__btn{
+	margin: 3%;
+	height: 30px;
+	width: 30%;
+	background-color: transparent;
+	border: 1px solid #078899;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	font-size: 15px;
+  color: aliceblue;
+}
+
+.search__btn:hover{
+	background-color:gray;
+	color: #fff;
+}
